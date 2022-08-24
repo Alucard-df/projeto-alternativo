@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: violet;
+    opacity: 50%; */
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.spa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size:50px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: great vibes;
+    color: red;    
+}
+
+.container{ 
+    position: relative;
+    width: 100%;
+    background: violet;
+    opacity: 70%;
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    margin-left: 39%;
+}
+
+.container label{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.container input{
+    border-radius: 10px;    
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+.voltar{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size:30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: great vibes;
+    color: red;
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    color: #555;
+    font-size:14px;
+    text-align:center;
+    line-height: 100px;
+    
+}
+    
+footer a {
+    color:#008FEA;
+    text-decoration:none;
+}
